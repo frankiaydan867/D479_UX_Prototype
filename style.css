@@ -10,6 +10,30 @@
     height: 600px;
     width: 100%;
 }
+.ent-bk-img {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/island-3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%;
+}
+.transport-bk-img {
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.65)), url("./assets/transport-2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%;
+}
+.faqs-bk-img {
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.65)), url("./assets/island-4.avif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%;
+}
 
 header {
     background-color: var(--primary-color);
@@ -19,8 +43,12 @@ footer {
     background-color: var(--primary-color);
 }
 
-.circle-img{
+.circle-img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
+}
+
+.min-vh-80 {
+    min-height: 80vh;
 }

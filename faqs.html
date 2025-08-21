@@ -48,14 +48,207 @@
                         </ul>
                     </div>
                     <div class="d-flex" role="search">
-                        <a class="btn btn-outline-primary" href="lodging.html">Book Now!</a>
+                        <a class="btn btn-outline-danger" href="lodging.html">Book Now!</a>
                     </div>
                 </div>
             </nav>
         </header>
 
-        <main class="min-vh-100">
-            <h1>FAQs</h1>
+        <main class="min-vh-80">
+            <!-- Homepage image -->
+            <div class="faqs-bk-img d-flex justify-content-center align-items-center mb-5">
+                <div class="w-25">
+                    <h1 class="text-center w-100">FAQs</h1>
+                </div>
+            </div>
+
+            <div class="container my-5">
+                <div class="card">
+                    <div class="card-body">
+                        <!-- Category: Restaurants -->
+                        <h2 class="h4 mt-4">Restaurants</h2>
+                        <div class="accordion" id="faqRestaurants">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="r-q1">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#r-a1" aria-expanded="false" aria-controls="r-a1">How many restaurants are there?</button>
+                                </h2>
+                                <div id="r-a1" class="accordion-collapse collapse" aria-labelledby="r-q1" data-bs-parent="#faqRestaurants">
+                                    <div class="accordion-body">We have 10 restaurants: five of them serve local fish and rice, three offer American-style meals, and two specialize in Pan-Asian cuisine.</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Category: Grocery Stores -->
+                        <h2 class="h4 mt-4">Grocery Stores</h2>
+                        <div class="accordion" id="faqGroceries">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="g-q1">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#g-a1" aria-expanded="false" aria-controls="g-a1">Are there grocery stores?</button>
+                                </h2>
+                                <div id="g-a1" class="accordion-collapse collapse" aria-labelledby="g-q1" data-bs-parent="#faqGroceries">
+                                    <div class="accordion-body">Yes. There are two supermarkets, two smaller grocery stores, and a 24-hour convenience store.</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Category: Lodging -->
+                        <h2 class="h4 mt-4">Lodging</h2>
+                        <div class="accordion" id="faqLodging">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="l-q1">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#l-a1" aria-expanded="false" aria-controls="l-a1">What types of lodging are available?</button>
+                                </h2>
+                                <div id="l-a1" class="accordion-collapse collapse" aria-labelledby="l-q1" data-bs-parent="#faqLodging">
+                                    <div class="accordion-body">Options range from a budget hostel to a four-star resort, plus many family-run hotels and bed &amp; breakfasts. All lodging is strictly regulated and regularly inspected.</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Category: Entertainment -->
+                        <h2 class="h4 mt-4">Entertainment</h2>
+                        <div class="accordion" id="faqEntertainment">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="e-q1">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#e-a1" aria-expanded="false" aria-controls="e-a1">What activities can I do in the island?</button>
+                                </h2>
+                                <div id="e-a1" class="accordion-collapse collapse" aria-labelledby="e-q1" data-bs-parent="#faqEntertainment">
+                                    <div class="accordion-body">
+                                        Enjoy beaches, rainforest hikes, and the volcano. You can also go snorkeling, take fishing charters, zip-line, visit pubs (including a microbrewery), dance at a club, see a movie, take helicopter rides, play at
+                                        an arcade, visit art galleries, bowl, and—coming soon—play a nine-hole golf course.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="e-q2">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#e-a2" aria-expanded="false" aria-controls="e-a2">Where are most entertainment spots located?</button>
+                                </h2>
+                                <div id="e-a2" class="accordion-collapse collapse" aria-labelledby="e-q2" data-bs-parent="#faqEntertainment">
+                                    <div class="accordion-body">Many venues are in Merriton Landing, a rapidly developing area on the north side of Yellow Leaf Bay.</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Category: Sightseeing -->
+                        <h2 class="h4 mt-4">Sightseeing</h2>
+                        <div class="accordion" id="faqSightseeing">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="s-q1">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#s-a1" aria-expanded="false" aria-controls="s-a1">What sightseeing options are available?</button>
+                                </h2>
+                                <div id="s-a1" class="accordion-collapse collapse" aria-labelledby="s-q1" data-bs-parent="#faqSightseeing">
+                                    <div class="accordion-body">
+                                        Explore Taniti City’s native architecture and nearby white-sand beaches around Yellow Leaf Bay. Other favorites include boat or bus tours, rainforest hikes, and visits to the island’s active volcano.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Category: Transportation -->
+                        <h2 class="h4 mt-4">Transportation</h2>
+                        <div class="accordion" id="faqTransport">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="t-q1">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#t-a1" aria-expanded="false" aria-controls="t-a1">How do most visitors arrive in Taniti?</button>
+                                </h2>
+                                <div id="t-a1" class="accordion-collapse collapse" aria-labelledby="t-q1" data-bs-parent="#faqTransport">
+                                    <div class="accordion-body">Most arrive by air to a small airport that serves small jets and propeller planes. A small cruise ship also docks in Yellow Leaf Bay one night per week.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="t-q2">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#t-a2" aria-expanded="false" aria-controls="t-a2">Can larger planes land at the airport?</button>
+                                </h2>
+                                <div id="t-a2" class="accordion-collapse collapse" aria-labelledby="t-q2" data-bs-parent="#faqTransport">
+                                    <div class="accordion-body">Not yet. The airport is being expanded so larger jets will be able to land in the future.</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Category: Ground Transportation -->
+                        <h2 class="h4 mt-4">Ground Transportation</h2>
+                        <div class="accordion" id="faqGround">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="gt-q1">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#gt-a1" aria-expanded="false" aria-controls="gt-a1">How do I get around Taniti?</button>
+                                </h2>
+                                <div id="gt-a1" class="accordion-collapse collapse" aria-labelledby="gt-q1" data-bs-parent="#faqGround">
+                                    <div class="accordion-body">
+                                        Public buses run in Taniti City from 5 a.m. to 11 p.m. daily; private buses serve the rest of the island. Taxis and rental cars are available, and several vendors rent bikes and helmets (helmets are required by
+                                        law). Taniti City is flat, very walkable, and the Merriton Landing area is easy to explore on foot.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Category: General Visitor Info -->
+                        <h2 class="h4 mt-4">General Visitor Information</h2>
+                        <div class="accordion" id="faqGeneral">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="gv-q1">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#gv-a1" aria-expanded="false" aria-controls="gv-a1">What type of power outlets are used?</button>
+                                </h2>
+                                <div id="gv-a1" class="accordion-collapse collapse" aria-labelledby="gv-q1" data-bs-parent="#faqGeneral">
+                                    <div class="accordion-body">Outlets are 120 volts, the same as in the United States.</div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="gv-q2">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#gv-a2" aria-expanded="false" aria-controls="gv-a2">What are the rules about alcohol?</button>
+                                </h2>
+                                <div id="gv-a2" class="accordion-collapse collapse" aria-labelledby="gv-q2" data-bs-parent="#faqGeneral">
+                                    <div class="accordion-body">Alcohol cannot be sold or served between midnight and 9:00 a.m. The drinking age is 18, though enforcement isn’t strict.</div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="gv-q3">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#gv-a3" aria-expanded="false" aria-controls="gv-a3">Is English widely spoken?</button>
+                                </h2>
+                                <div id="gv-a3" class="accordion-collapse collapse" aria-labelledby="gv-q3" data-bs-parent="#faqGeneral">
+                                    <div class="accordion-body">Many younger Tanitians speak fluent English. In rural areas, especially among older residents, very little English is spoken.</div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="gv-q4">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#gv-a4" aria-expanded="false" aria-controls="gv-a4">What medical facilities are available?</button>
+                                </h2>
+                                <div id="gv-a4" class="accordion-collapse collapse" aria-labelledby="gv-q4" data-bs-parent="#faqGeneral">
+                                    <div class="accordion-body">There is one hospital and several clinics. The hospital has many multilingual employees.</div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="gv-q5">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#gv-a5" aria-expanded="false" aria-controls="gv-a5">Is the island safe for tourists?</button>
+                                </h2>
+                                <div id="gv-a5" class="accordion-collapse collapse" aria-labelledby="gv-q5" data-bs-parent="#faqGeneral">
+                                    <div class="accordion-body">Violent crime is very rare, but pickpocketing and other petty crimes have increased as tourism grows. Stay aware of your belongings.</div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="gv-q6">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#gv-a6" aria-expanded="false" aria-controls="gv-a6">Are attractions open year-round?</button>
+                                </h2>
+                                <div id="gv-a6" class="accordion-collapse collapse" aria-labelledby="gv-q6" data-bs-parent="#faqGeneral">
+                                    <div class="accordion-body">Taniti observes many national holidays, and some attractions and restaurants close on holidays. Plan accordingly.</div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="gv-q7">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#gv-a7" aria-expanded="false" aria-controls="gv-a7">What currency is used?</button>
+                                </h2>
+                                <div id="gv-a7" class="accordion-collapse collapse" aria-labelledby="gv-q7" data-bs-parent="#faqGeneral">
+                                    <div class="accordion-body">The U.S. dollar is standard, but many businesses also accept euros and yen. Several banks provide currency exchange, and many places accept major credit cards.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </main>
         <!-- Footer -->
         <footer class="mt-auto py-3">
